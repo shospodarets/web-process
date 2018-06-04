@@ -1,0 +1,9 @@
+{
+  "name": "web-process",
+  "version": "1.0.0",
+  "description": "HTML/CSS/JavaScript proposals/specifications/features and their current status",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+  }
+}

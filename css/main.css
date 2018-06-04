@@ -1,0 +1,70 @@
+html, body, .container {
+    min-height: 100%;
+}
+
+body {
+    background: linear-gradient(135deg, #6c5fce 0%, #6c5fce 15%, #62b3d0 100%);
+    color: #fff;
+}
+
+body,
+body > .container {
+    display: flex;
+    flex-direction: column;
+}
+
+body > .container {
+    margin: 0;
+    max-width: none;
+    width: auto;
+}
+
+html {
+    font-size: 18px;
+}
+
+a, a:hover {
+    color: #ff0;
+}
+
+nav,
+footer.page-footer {
+    background-color: #03a9f4;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+header, footer {
+    flex: 0 0 auto;
+}
+
+content {
+    flex: 1 0 auto;
+    padding-top: 20px;
+}
+
+.description {
+    margin-bottom: 30px;
+}
+
+.title {
+    margin: 0;
+    line-height: 56px;
+}
+
+.links {
+    padding: 0;
+    margin: 0 0 30px;
+}
+
+.links dd {
+    padding-left: 10px;
+}
+
+.main-link {
+    font-size: 150%;
+}
